@@ -1,6 +1,10 @@
 header{
 
 }
-.one{
+#ichi,.one, h1{
 	background-color:orange;
+	padding: 10px;
+	border:1px;
+	height:30px;
+	width:all;
 }

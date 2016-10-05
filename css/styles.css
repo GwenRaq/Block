@@ -1,10 +1,41 @@
-header{
-
-}
-#ichi,.one, h1{
+.container{
 	background-color:orange;
-	padding: 10px;
-	border:1px;
-	height:30px;
-	width:all;
+	height:100%;
+	font-size:30px;
+}
+h1{
+	text-align:center;
+	padding:40px;
+}
+.one{
+	background-color: #000;
+	padding:20px;
+	margin:10px 75px;
+	color:#fff;
+	text-align:center;
+	font-size:20px;
+}
+@media screen and (min-width: 800px) and (max-width: 1000px){
+	.container{
+		background-color:black;
+	}
+	.one{
+		background-color:white;
+		color:orange;
+	}
+	h1{
+		color:orange;
+	}
+}
+@media screen and (min-width:100px) and (max-width: 500px){
+	.container{
+		background-color:lightblue;
+	}
+	.one{
+		background-color:white;
+		color:pink;
+	}
+	h1{
+		color:pink;
+	}
 }
